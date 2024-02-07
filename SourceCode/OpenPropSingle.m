@@ -1033,6 +1033,8 @@ function execute(hObject,ED)
 
     input.Make2Dplot_flag = Make2Dplot_flag;
     input.Make3Dplot_flag = Make3Dplot_flag;
+    % Malcolm - modified so that it outputs a solidworks file
+    input.Make_SWrks_flag = 1
     % input.Make_Rhino_flag = Make_Rhino_flag;
     input.ITER            = ITER;           % [ ] number of iterations
     input.Rhv              = Rhv;         % [1 x 1], [ ] hub vortex radius / hub radius
